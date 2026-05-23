@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-11/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search App</title>
+    <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-GgwdjDaY.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-50QpmaF-.css">
+  </head>
+  <body>
+    <main class="app">
+      <section class="search-section">
+        <h1 class="app-title">Image Search</h1>
+
+        <form class="form" id="search-form">
+          <label class="form-label">
+            <input
+              class="form-input"
+              type="text"
+              name="search-text"
+              placeholder="Search images..."
+              autocomplete="off"
+              required
+            />
+          </label>
+          <button class="form-button" type="submit">Search</button>
+        </form>
+      </section>
+
+      <div class="loader loader-hidden" aria-hidden="true"></div>
+
+      <section class="gallery-section">
+        <ul class="gallery"></ul>
+      </section>
+    </main>
+
+  </body>
+</html>
